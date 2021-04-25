@@ -18,7 +18,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync lanhebe-Heroku-xray-trojangows-ssws
+      - name: sync YG-tsj-Heroku-xray-trojangows-ssws
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
@@ -42,7 +42,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync lanhebe-proxypool
+      - name: sync YG-tsj-Heroku-xray-trojangows-ssws
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
