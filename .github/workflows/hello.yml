@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-YG-tsj-Heroku-xray-trojangows-ssws
+    types: sync YG-tsj-Heroku-xray-trojangows-ssws
 jobs:
   repo-sync:
     env:
