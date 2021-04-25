@@ -1,4 +1,4 @@
-name: run-sync
+name: hello-sync
 on:
   schedule:
     - cron: '14 */3 * * *'
